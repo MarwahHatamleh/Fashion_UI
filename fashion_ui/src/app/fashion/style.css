@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
+
+
+body,
+html {
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  min-height: calc(200vh - 50px);
+  background-image: url("/landing_img_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  background-color: white;
+  max-width: 400px;
+  height: 550px;
+  border-radius: 30px;
+  position: relative;
+  left: 200px;
+}
+
+.header {
+  font-size: 45px;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  padding-top: 10px;
+  text-align: left;
+  font-weight: 900;
+  word-break: break-word; 
+  overflow-wrap: break-word; 
+  padding: 20px;
+}
+
+.dot{
+    color: #779ab9;
+}
+
+.para {
+  font-size: 19px;
+  color: #939caf;
+  text-align: left;
+  padding: 20px;
+  font-style: italic;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.btns button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 34px;
+  font-weight: 600;
+  width: 150px;
+}
+
+.callBtn{
+  background-color: #2e428b;
+  color: white;
+
+}
+
+.categoriesBtn{
+color: #939caf;
+border: 2px solid #939caf;
+}
+
+.scissors {
+  width: 100px;
+  margin-left: 20px;
+
+}
+
+.ShopContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60px;
+}
+
+.headerOfShop{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.shop{
+      background-color: #2e428b;
+  color: white;
+width: 140px;
+height: 50px;
+font-size: 18px;
+}
+
+.imgsContainer {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 100%;
+  gap: 10px; 
+}
+
+.imgsContainer img {
+  flex: 1;               
+  width: 100%;            
+  height: 100%;          
+  object-fit: cover;      
+  border-radius: 8px;     
+}
+
+.offer{
+   display: flex;
+   flex-direction: column;
+
+}
+.book{
+    width: 200px;
+    background-color: #2e428b ;
+    color: white;
+    height: 50px;
+}
